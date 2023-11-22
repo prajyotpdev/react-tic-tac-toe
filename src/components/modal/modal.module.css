@@ -1,0 +1,48 @@
+.box {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card {
+  background: #192a32;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  z-index: 3;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem 2rem;
+}
+
+.headings {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.won {
+  display: flex;
+  justify-content: center;
+}
+
+.won p {
+  color: #acc2cd;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 425px) {
+  .box {
+    border-radius: 0;
+  }
+}
